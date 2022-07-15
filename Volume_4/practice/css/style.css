@@ -2,10 +2,8 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+body {
+  font-family: Arial, Verdana, sans-serif;
 }
 
 a {
@@ -16,9 +14,13 @@ a {
 img {
   max-width: 100%;
 }
-body {
-  font-family: "font", sans-serif;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
+
 .main-content {
   display: flex;
   flex-direction: column;
@@ -28,20 +30,41 @@ body {
   color: #fff;
   background-color: #070217;
 }
+
 .logo-link {
   display: block;
   margin-bottom: 50px;
 }
+
 .group-links {
+  font-size: 0px;
   margin-bottom: 50px;
 }
+
 .link {
   display: inline-block;
   padding: 24px 49px;
   margin-right: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #3f2aff;
 }
 .link:last-child {
   margin-right: 0;
+}
+
+.document{
+  display: inline-block;
+  font-weight: 700;
+  color: #3f2aff;
+}
+
+.document-link {
+  background-image: url('../img/download.png');
+  padding-left:25px;
+  background-position: left center;
+  background-size:20px 20px;
+  background-repeat: no-repeat;
 }
 .container {
   margin: 0 auto;
@@ -74,7 +97,7 @@ body {
   margin-bottom: 40px;
 }
 .list {
-  margin:0;
+  margin: 0;
   padding-left: 15px;
 }
 .list .items:not(:last-child) {
@@ -82,10 +105,10 @@ body {
 }
 .figure {
   display: inline-block;
-  margin:0 0 40px;
+  margin: 0 0 40px;
   width: 872px;
 }
-.image{
+.image {
   display: block;
   margin-bottom: 40px;
 }
