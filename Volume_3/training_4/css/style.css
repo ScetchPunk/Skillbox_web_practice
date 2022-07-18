@@ -1,0 +1,24 @@
+* {
+  box-sizing:border-box;
+}
+.element {
+  font-size: 14px;
+  outline: 1px solid #000;
+  display: inline-block;
+  width: 320px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+/* .element:not(:last-child) {
+  margin-right: 0px;
+} */
+.element:nth-child(3n) {
+  margin-right: 0;
+}
+.parent {
+  font-size: 0;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: rgba(255, 0, 0, 0.33);
+}

@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "font", sans-serif;
+}
+/*classes*/
+.content {
+  padding: 2rem 1rem;
+}
+h2 {
+  margin: 0 0 1em;
+}
+ul {
+  margin: 0;
+  padding-left: 1em;
+  display: inline-block;
+}
+/* ul:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+} */
+ul:not(:last-child) {
+  margin: 0 2em 1em 0;
+}
+.example:not(:last-child) {
+  margin-bottom: 2em;
+}
+
+/*special block*/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
