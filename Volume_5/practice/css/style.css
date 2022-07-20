@@ -1,0 +1,304 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #070217;
+}
+
+.logo-link {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.group-links {
+  margin-bottom: 50px;
+  font-size: 0px;
+}
+
+.link {
+  display: inline-block;
+  padding: 24px 49px;
+  margin-right: 25px;
+  font: 700 18px / 1.15 Arial, Verdana, sans-serif;
+  /* 1) вес, 2) размер текста, 3) межстрочный интервал, 4) Семейство шрифтов */
+  /* font-size: 18px;
+  font-weight: 700; */
+  background-color: #3f2aff;
+}
+
+.link:last-child {
+  margin-right: 0;
+}
+
+.document {
+  display: inline-block;
+  font-weight: 700;
+  color: #3f2aff;
+}
+
+.document-link {
+  padding-left: 25px;
+  background: url("../img/download.png") no-repeat left center/ 20px 20px;
+  /* background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-image: url("../img/download.png"); */
+}
+
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1170px;
+}
+
+.p {
+  margin: 0 0 40px;
+  width: 872px;
+  font: 400 20px / 32px Arial, Verdana, sans-serif;
+  /* font-weight: 400;
+  font-size: 20px;
+  line-height: 32px; */
+  color: #333;
+}
+
+.p-highlight {
+  width: 100%;
+  padding: 50px 95px;
+  border-radius: 20px;
+  font: 700 30px / 32px Arial, Verdana, sans-serif;
+  /* font-weight: 700;
+  font-size: 30px; */
+  color: white;
+  background-color: #3f2aff;
+}
+
+.main-header {
+  margin: 0 0 40px;
+  font: 400 60px / 60px Arial, Verdana, sans-serif;
+  /* font-weight: 400;
+  font-size: 60px;
+  line-height: 60px; */
+  color: #333;
+}
+
+.second-header {
+  margin: 0 0 10px;
+  font: 700 40px / 46px Arial, Verdana, sans-serif;
+  /* font-size: 40px;
+  line-height: 46px; */
+  color: #333;
+}
+
+.third-header {
+  margin: 0 0 10px;
+  font: 400 30px /34px Arial, Verdana, sans-serif;
+  /* font-size: 30px;
+  font-weight: 400;
+  line-height: 34px; */
+  color: #333;
+}
+
+.grey-block {
+  padding: 30px;
+  border-radius: 20px;
+  background: #f3f3f3 no-repeat center right/contain;
+  /* background-color: #f3f3f3;
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat; */
+}
+
+.decoration-1 {
+  background-image: url("../img/decorate-2.png");
+}
+
+.decoration-2 {
+  background-image: url("../img/decorate-1.png");
+}
+
+.grey-block .p {
+  margin-bottom: 10px;
+  width: 692px;
+}
+
+.grey-block:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.list {
+  margin: 0;
+  padding-left: 15px;
+}
+
+.list .items:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.items a {
+  border-bottom: 1px solid #3f2aff;
+  font-size: 20px;
+  color: #3f2aff;
+}
+
+::marker {
+  color: #3f2aff;
+}
+
+.figure {
+  display: inline-block;
+  margin: 0 0 40px;
+  width: 872px;
+  font-size: 0;
+}
+
+.figcaption {
+  border: 1px solid #b6b6b6;
+  border-top: none;
+  padding: 19px;
+  font: 400 14px Arial, Verdana, sans-serif;
+  /* font-weight: 400;
+  font-size: 14px; */
+  text-align: center;
+}
+
+.image {
+  display: block;
+  margin-bottom: 40px;
+}
+
+/* Новые классы под сайт modules.html */
+.container_modules {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 1170px;
+  font-family: "Roboto", Arial;
+}
+
+.skillbox-logo_modules {
+  display: block;
+  margin: 0 0 25px;
+}
+
+.to-main-page_modules {
+  margin: 0 0 25px;
+  color: #3f2aff;
+  font: 400 20px/23px "Roboto", Arial;
+}
+
+.main-header_modules {
+  /* TODO: шрифты не имеют "тяжести". Нужно подгружать шрифты? */
+  margin: 0 0 50px;
+  color: #3f2aff;
+  font: 700 60px/69px "Roboto", Arial;
+}
+
+.cards_modules {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style-type: none;
+}
+
+.single-card_modules {
+  position: relative;
+  display: inline-block;
+  /* TODO перепроверить ещё раз ширину и длину блока под адаптивную вёрстку! */
+  margin: 0 25px 25px 0;
+  width: 572px;
+  height: 505px;
+  vertical-align: top;
+  /* outline: 1px solid #000; */
+  font: 400 20px/165% "Roboto", Arial;
+  background: #fff no-repeat top center/contain;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.single-card_modules:nth-child(2n) {
+  margin-right: 0px;
+}
+
+/* TODO Ошибка в формате картинок. Переделать png-> jpg */
+.card_1_background {
+  background-image: url("../img/modules_pic1.jpg");
+}
+
+.card_2_background {
+  background-image: url("../img/modules_pic2.png");
+}
+
+.card_3_background {
+  background-image: url("../img/modules_pic3.png");
+}
+
+.card_4_background {
+  background-image: url("../img/modules_pic4.png");
+}
+
+.card-info_modules {
+  padding: 205px 0 0 25px;
+}
+
+.card-info_modules ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card-number_modules {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  display: inline-block;
+  color: #eaeaea;
+  font: 400 40px/46px "Roboto", Arial;
+  text-align: right;
+}
+
+.second-header_modules {
+  margin: 0;
+  padding: 0;
+  color: #3f2aff;
+  font: 700 40px/46px "Roboto", Arial;
+}
+
+/* .card-info-items_modules {
+} */
+
+.button-show-more_modules {
+  display: block;
+  margin: 0 auto;
+  padding: 25px 75px;
+  width: 274px;
+  height: 70px;
+  border: 2px solid #3f2aff;
+  font: 700 18px/21px "Roboto", Arial;
+  color: #3f2aff;
+  text-align: center;
+}
+
