@@ -290,15 +290,13 @@ img {
 
 /* .card-info-items_modules {
 } */
-
+.button-show-more-placeholder_modules {
+  text-align: center;
+}
 .button-show-more_modules {
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
   padding: 24px 75px;
-  width: 274px;
-  height: 70px;
   border: 2px solid #3f2aff;
   color: #3f2aff;
   font: 700 18px/24px "Roboto", Arial;
-  text-align: center;
 }
