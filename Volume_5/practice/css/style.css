@@ -212,7 +212,6 @@ img {
 }
 
 .main-header_modules {
-  /* TODO: шрифты не имеют "тяжести". Нужно подгружать шрифты? */
   margin: 0 0 50px;
   color: #3f2aff;
   font: 700 60px/69px "Roboto", Arial;
@@ -243,21 +242,20 @@ img {
   margin-right: 0px;
 }
 
-/* TODO Ошибка в формате картинок. Переделать png-> jpg */
 .card_1_background {
   background-image: url("../img/modules_pic1.jpg");
 }
 
 .card_2_background {
-  background-image: url("../img/modules_pic2.png");
+  background-image: url("../img/modules_pic2.jpg");
 }
 
 .card_3_background {
-  background-image: url("../img/modules_pic3.png");
+  background-image: url("../img/modules_pic3.jpg");
 }
 
 .card_4_background {
-  background-image: url("../img/modules_pic4.png");
+  background-image: url("../img/modules_pic4.jpg");
 }
 
 .card-info_modules {
