@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form training_checkboxes</title>
+  </head>
+  <body>
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+      <fieldset>
+        <legend>Выбор пола</legend>
+        <label>
+          <input type="radio" id="" name="gender" value="Мужской пол" />Мужской
+          пол
+        </label>
+        <input
+          type="radio"
+          id=""
+          name="gender"
+          value="Женский пол"
+          checked
+        />Женский пол
+        <textarea name="message" placeholder="Input message"></textarea>
+        <select name="city" id="">
+          <option value="Мурманск">Мурманск</option>
+          <option value="Санкт-Петербург">Санкт-Петербург</option>
+          <option value="Москва">Москва</option>
+          <option value="Мурманск" disabled>Мурманск</option>
+        </select>
+        <button type="submit">Send info</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
