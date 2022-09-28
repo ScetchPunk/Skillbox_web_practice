@@ -1,0 +1,15 @@
+:root{
+  --yellow-color:#1cba03;
+  --text-size:20px;
+}
+
+@media(max-width:600px){
+  :root{
+    --text-size:10px;
+  }
+}
+
+.element{
+  color: var(--yellow-color);
+  font-size: var(--text-size);
+}
