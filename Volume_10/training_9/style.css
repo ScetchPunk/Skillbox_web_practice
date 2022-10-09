@@ -1,0 +1,9 @@
+div {
+  color: #fff;
+  background-color: red;
+}
+
+div {
+    color: revert; /* будет равно `#000` */
+    display: revert; /* будет равно `block` */
+}

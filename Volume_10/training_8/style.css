@@ -1,0 +1,9 @@
+div {
+  color: #fff;
+  background-color: red;
+}
+
+div {
+    color: unset; /* будет равно `inherit` */
+    display: unset; /* будет равно `initial` */
+}

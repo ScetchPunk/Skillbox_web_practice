@@ -1,0 +1,22 @@
+a {
+  display: block;
+  margin-bottom: 20px;
+}
+
+a[href="https://google.com"]
+{
+  background-color: red;
+}
+
+a[href*="login"] {
+  background-color: blue;
+}
+
+a[href^="http://"]
+{
+  background-color: yellow;
+}
+
+a[href$=".pdf"] {
+  background-color: tan;
+}

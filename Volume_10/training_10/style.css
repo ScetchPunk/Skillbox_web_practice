@@ -1,0 +1,7 @@
+ul {
+  list-style: none;
+}
+
+.link-item:hover svg path{
+  fill: orange;
+}
