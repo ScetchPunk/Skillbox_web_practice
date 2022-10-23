@@ -1,0 +1,13 @@
+/* Some code for buttons */
+.btn {
+  border: none;
+  padding: 15px 30px;
+  background-color: #000;
+  color: #fff;
+  transform: skew(-13deg);
+}
+
+.btn span{
+  display: inline-block;
+  transform: skewX(13deg);
+}

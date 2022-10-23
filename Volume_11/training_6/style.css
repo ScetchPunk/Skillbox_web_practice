@@ -1,0 +1,8 @@
+.invert {
+  width: 300px;
+  filter: invert(100%);
+}
+
+img {
+  max-width: 100%;
+}

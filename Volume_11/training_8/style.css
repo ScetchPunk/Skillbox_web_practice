@@ -1,0 +1,9 @@
+.parent {
+  display: flex;
+}
+
+.block {
+  width: calc(100% / 3);
+  min-height: 300px;
+  outline: 1px solid red;
+}

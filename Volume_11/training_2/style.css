@@ -1,0 +1,40 @@
+/* Some code for buttons */
+body {
+  padding: 100px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  position: relative;
+  border-radius: 100px;
+  padding: 17px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  background-color: #222;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 2px solid black;
+  border-radius: 100px;
+  width: calc(100% + 12px);
+  height: calc(100% + 12px);
+  opacity: 0;
+  /* Изменение элемента:сжатие-увеличение */
+  translate: scale(0.5);
+  /* Изменение элемента: сдвиг на две оси, по Ox, по Oy. */
+  /* transform: translate(-50%, -50%); */
+  /* transform: translateX(-50%, -50%); */
+  /* transform: translateY(-50%, -50%); */
+}
+
+.btn:focus::after {
+  opacity: 1;
+}

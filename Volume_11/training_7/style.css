@@ -1,0 +1,8 @@
+.block {
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+  background-color: navy;
+  width: min(50%, 700px);
+}

@@ -1,0 +1,10 @@
+.parent {
+  display: flex;
+}
+
+.block {
+  border: 1px solid red;
+  width: 150px;
+  min-height: 100px;
+  margin-right: max(5%, 50px);
+}
