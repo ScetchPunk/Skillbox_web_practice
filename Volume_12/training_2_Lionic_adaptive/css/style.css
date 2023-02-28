@@ -742,8 +742,8 @@ body {
 }
 
 .footer__link:focus {
-  outline-offset: 2px;
-  outline: 1px solid #71a7e2;
+  outline-offset: 5px;
+  outline: 2px solid #71a7e2;
 }
 
 .footer__link:hover {
