@@ -1,0 +1,11 @@
+@media (orientation:portrait) {
+  body{
+    background-color: red;
+  }
+}
+@media (prefers-color-scheme:dark){
+  body{
+    color:#fff;
+    background-color: #333;
+  }
+}
